@@ -1,0 +1,89 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-position-x: 2rem;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(145, 208, 235, 0.842);
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background: linear-gradient(115deg, rgb(243, 245, 247) 8%, rgba(0, 254, 97, 0.582) 10%, rgba(160, 160, 162, 0.74) 90%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.menu {
+    color: rgb(169, 169, 169);
+}
+
+.menu a {
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:larger;
+    color: rgb(0, 0, 0);
+}
+
+.master{
+    height: 100%;
+    display: block;
+}
+
+.cuerpo {
+    
+    padding: 10px;
+    display: flex;
+    margin-top: 75px;
+    margin-left: 75px;
+    margin-bottom: 75px;
+    width: 90%;
+    height: 85%;
+    background:rgba(255, 255, 255, 0.363);
+    
+}
+
+
+
+.imgs {
+
+    display: flex;
+
+    padding: 20px;
+
+    height: 250px;
+
+}
+
+img {
+
+    padding: 20px;
+
+}
+
+.lista {
+
+    align-items: center;
+
+    max-width: 60%;
+
+    padding: 20px;
+
+}
